@@ -1,6 +1,6 @@
 class Section < ApplicationRecord
 	has_many :lessons
-	belongs_to :courses
+	belongs_to :course
 
 end
 
