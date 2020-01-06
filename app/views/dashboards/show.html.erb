@@ -6,7 +6,8 @@
     <h3 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h3>
-<br /> #add the image tag here
+    <br />
+    <%= image_tag course.image.to_s, class: 'img-fluid' %>
  <br />
   <div class="row">
   <div class="col-12 col-sm-8">
@@ -26,7 +27,7 @@
     <%= link_to course.title, course_path(course) %>
     </h3>
     <br />
-    <br /> #add the image tag here
+    <%= image_tag course.image.to_s, class: 'img-fluid' %>
     <br />
       <div class="row">
     <div class="col-12 col-sm-8">
